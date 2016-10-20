@@ -1,0 +1,17 @@
+{
+  "name": "aws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip function.zip package.json *.js node_modules -r"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.75.0",
+    "aws-sdk": "^2.4.10"
+  },
+  "devDependencies": {},
+  "description": ""
+}
